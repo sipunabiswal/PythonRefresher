@@ -1,0 +1,6 @@
+print("1. Mix 500g of Flour, 10g Yeast and 300ml Water in a bowl.")
+print("2. Knead the dough for 10 minutes until smooth.")
+print("3. Let it rise for 1 hour.")
+print("4. Preheat the oven to 220°C.")
+print("5. Shape the dough into a loaf and place it in a baking tin.")
+print("6. Bake for 30 minutes or until golden brown.")
