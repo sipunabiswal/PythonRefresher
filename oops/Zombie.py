@@ -1,9 +1,9 @@
-class Zombie:
+from Enemy import Enemy 
+class Zombie(Enemy):
 
     def __init__(self, name, health, attack_power):
-        self.name = name
-        self.health = health
-        self.attack_power = attack_power
+        super().__init__(name, health, attack_power)
+
     def attack(self):
         return f"{self.name} attacks with power {self.attack_power}!"
     
@@ -22,3 +22,6 @@ class Zombie:
     
     def walk_forward(self):
         return f"{self.name} shambles forward."
+    
+    def spread_infection(self):
+        return f"{self.name} spreads infection to nearby characters!"
